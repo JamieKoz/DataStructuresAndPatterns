@@ -1,0 +1,35 @@
+﻿  Main.cpp
+C:\Users\jamie\Documents\uni2022\dsp\PS4\BinarySearchTreeIterator.h(41,1): error C2440: 'return': cannot convert from 'const _Ty' to 'const T &'
+          with
+          [
+              _Ty=BinaryTreeNode<int> *
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\jamie\Documents\uni2022\dsp\PS4\BinarySearchTreeIterator.h(41,1): message : Reason: cannot convert from 'const _Ty' to 'const T'
+          with
+          [
+              _Ty=BinaryTreeNode<int> *
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\jamie\Documents\uni2022\dsp\PS4\BinarySearchTreeIterator.h(41,30): message : There is no context in which this conversion is possible
+C:\Users\jamie\Documents\uni2022\dsp\PS4\BinarySearchTreeIterator.h(38): message : while compiling class template member function 'const T &BinarySearchTreeIterator<T>::operator *(void) const'
+          with
+          [
+              T=int
+          ]
+C:\Users\jamie\Documents\uni2022\dsp\PS4\Main.cpp(184): message : see reference to function template instantiation 'const T &BinarySearchTreeIterator<T>::operator *(void) const' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\jamie\Documents\uni2022\dsp\PS4\Main.cpp(184): message : see reference to class template instantiation 'BinarySearchTreeIterator<T>' being compiled
+          with
+          [
+              T=int
+          ]
